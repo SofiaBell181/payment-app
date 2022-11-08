@@ -82,6 +82,7 @@ export default function Payment({chooseOperator, image}){
       const funCloseModal = () => {
         modalWindow.current.style.display = 'none';
         currentAmount.current.value = '';
+        setAmount('');
       }
 
 
